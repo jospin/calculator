@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Docker up
 
-The dockwe was configuration to up angular and nginex server. run `docker build -t ${image-name} .` after that list for confirm image and run `docker run --name ${container-name}-container -d -p 8080:80 ${image-name}`
+The dockwe was configuration to up angular and nginex server. run `docker build -t ${image-name} .` after that list for confirm image and run `docker run --name ${container-name}-container -d -p 8080:80 ${image-name}` and access http://localhost:8080/
 
 ## Running unit tests
 
